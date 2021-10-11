@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 const port = 5000
 const mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://Jeonghwa:s1537979@boilerplate.onixv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://Jeonghwa:<password>@boilerplate.onixv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
   useNewUrlParser: true
 }).then(() => console.log('MongoDB Connected..'))
   .catch(err => console.log(err))
